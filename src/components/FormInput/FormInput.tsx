@@ -96,7 +96,6 @@ const FormInput: FC<FormInputProps> = (props) => {
     inputRef.current?.focus?.();
   }, [clearValue]);
 
-  console.log('Value: ', value);
   return (
     <>
       <View
